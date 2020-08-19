@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <section id="formContainer">
+        <form>
+            <div class="confirmation">Thank you for contacting us, </div>
+            <div id="form-section">
+                <input type="text" placeholder="First Name" class="first-name all-fields">
+                <input type="text" placeholder="Last Name" class="last-name all-fields">
+                <div>
+                    <label for="gender">Gender:</label><br>
+                    <input type="radio" name="gender" >Male<br>
+                    <input type="radio" name="gender" >Female<br>
+                </div>
+                <textarea placeholder="Your message here..." class="message-area all-fields"></textarea>
+                <input type="button" value="Submit" class="submit-button">
+            </div>
+            <img src="german.png" />
+        </form>
+        <script src="./app.js"></script>
+    </section>
+</body>
+</html>
